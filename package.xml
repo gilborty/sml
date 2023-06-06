@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>boost-sml</name>
+  <version>0.1.0</version>
+  <description>Boost SML package for ROS2 integration</description>
+  <maintainer email="gilbert@missionrobotics.us">gilborty</maintainer>
+  <url type="repository">https://github.com/gilborty/sml</url>
+
+  <license>Boost Software License</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
