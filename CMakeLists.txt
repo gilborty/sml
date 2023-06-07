@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(boost_sml)
+project(sml)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
@@ -7,7 +7,10 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 
-target_include_directories(boost_sml PUBLIC
+add_library(sml INTERFACE)
+add_library(sml::sml ALIAS sml)
+
+target_include_directories(sml INTERFACE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/sml/include>
     $<INSTALL_INTERFACE:include>)
 

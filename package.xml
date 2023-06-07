@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>boost-sml</name>
+  <name>sml</name>
   <version>0.1.0</version>
   <description>Boost SML package for ROS2 integration</description>
   <maintainer email="gilbert@missionrobotics.us">gilborty</maintainer>
